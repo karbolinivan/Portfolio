@@ -1,0 +1,132 @@
+{
+	"id": "bdc1082a-80a2-4cff-b52a-8b2e1534f274",
+	"name": "ChuckNorris",
+	"timestamp": "2023-04-14T18:27:29.093Z",
+	"collection_id": "24270695-6a4a0e57-2134-4135-9f41-040c02e6f6ad",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-14T18:27:26.535Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b8c3ba7c-0099-4bf6-baa8-2d90327069cf",
+			"name": "Categories",
+			"url": "https://api.chucknorris.io/jokes/categories",
+			"time": 199,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				199
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ecff44af-9740-49f6-a5ab-d6701d9c8146",
+			"name": "Sport",
+			"url": "https://api.chucknorris.io/jokes/random?category=sport",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				172
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "82e1dbb2-f90b-4705-81c5-5680a5f4a9e3",
+			"name": "Animal",
+			"url": "https://api.chucknorris.io/jokes/random?category=animal",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "033b50e4-083e-4829-9446-831ab8efbd48",
+			"name": "Dev",
+			"url": "https://api.chucknorris.io/jokes/random?category=dev",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				120
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e5ab789b-57ea-47ff-b3b1-5c7ad68e9bf2",
+			"name": "Fail",
+			"url": "https://api.chucknorris.io/jokes/random?category=spor",
+			"time": 169,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				169
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 965,
+	"collection": {
+		"requests": [
+			{
+				"id": "b8c3ba7c-0099-4bf6-baa8-2d90327069cf",
+				"method": "GET"
+			},
+			{
+				"id": "ecff44af-9740-49f6-a5ab-d6701d9c8146",
+				"method": "GET"
+			},
+			{
+				"id": "82e1dbb2-f90b-4705-81c5-5680a5f4a9e3",
+				"method": "GET"
+			},
+			{
+				"id": "033b50e4-083e-4829-9446-831ab8efbd48",
+				"method": "GET"
+			},
+			{
+				"id": "e5ab789b-57ea-47ff-b3b1-5c7ad68e9bf2",
+				"method": "GET"
+			}
+		]
+	}
+}

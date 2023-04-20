@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "6a4a0e57-2134-4135-9f41-040c02e6f6ad",
+    "name": "ChuckNorris",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "24270695"
+  },
+  "item": [
+    {
+      "name": "Categories",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.chucknorris.io/jokes/categories",
+          "protocol": "https",
+          "host": ["api", "chucknorris", "io"],
+          "path": ["jokes", "categories"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Sport",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.chucknorris.io/jokes/random?category=sport",
+          "protocol": "https",
+          "host": ["api", "chucknorris", "io"],
+          "path": ["jokes", "random"],
+          "query": [
+            {
+              "key": "category",
+              "value": "sport"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Animal",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.chucknorris.io/jokes/random?category=animal",
+          "protocol": "https",
+          "host": ["api", "chucknorris", "io"],
+          "path": ["jokes", "random"],
+          "query": [
+            {
+              "key": "category",
+              "value": "animal"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dev",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.chucknorris.io/jokes/random?category=dev",
+          "protocol": "https",
+          "host": ["api", "chucknorris", "io"],
+          "path": ["jokes", "random"],
+          "query": [
+            {
+              "key": "category",
+              "value": "dev"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Fail",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.chucknorris.io/jokes/random?category=spor",
+          "protocol": "https",
+          "host": ["api", "chucknorris", "io"],
+          "path": ["jokes", "random"],
+          "query": [
+            {
+              "key": "category",
+              "value": "spor"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
