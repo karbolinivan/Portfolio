@@ -1,0 +1,184 @@
+{
+  "id": "10c0c105-e78f-417e-8441-47e909516368",
+  "name": "Google Maps API",
+  "timestamp": "2023-04-14T15:44:11.080Z",
+  "collection_id": "24270695-97f565ea-30d4-464e-a956-f48ebf477c9e",
+  "folder_id": 0,
+  "environment_id": "0",
+  "totalPass": 0,
+  "delay": 0,
+  "persist": true,
+  "status": "finished",
+  "startedAt": "2023-04-14T15:44:02.164Z",
+  "totalFail": 0,
+  "results": [
+    {
+      "id": "a46c7215-8e0b-4c05-be1e-70e022a62cdc",
+      "name": "Create New Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123",
+      "time": 523,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [523],
+      "allTests": [{}]
+    },
+    {
+      "id": "58a14761-c255-4c9b-92ef-79e0753ea65e",
+      "name": "Status Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=62206bed51defc00ef45076af4491253",
+      "time": 1144,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [1144],
+      "allTests": [{}]
+    },
+    {
+      "id": "d15a9e91-d469-43ef-9085-ddbd9e7f6ee1",
+      "name": "Status Location Fail",
+      "url": "https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1",
+      "time": 705,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [705],
+      "allTests": [{}]
+    },
+    {
+      "id": "ef0fa466-b8cc-4853-acaa-3cff933c8ee4",
+      "name": "Update Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123",
+      "time": 1064,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [1064],
+      "allTests": [{}]
+    },
+    {
+      "id": "3c5dd9b6-c105-4dff-9809-7b939d0cfa73",
+      "name": "Status Update Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=62206bed51defc00ef45076af4491253",
+      "time": 708,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [708],
+      "allTests": [{}]
+    },
+    {
+      "id": "b405b89c-2035-4d79-991e-9b1aafd18e8e",
+      "name": "Update Location Fail",
+      "url": "https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123",
+      "time": 1071,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [1071],
+      "allTests": [{}]
+    },
+    {
+      "id": "b07d424c-5e6e-48f9-af31-4a93faac11fa",
+      "name": "Delete Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123",
+      "time": 1062,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [1062],
+      "allTests": [{}]
+    },
+    {
+      "id": "58784af1-b4a2-4916-91e4-03cf205c8c53",
+      "name": "Status Delete Location",
+      "url": "https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=62206bed51defc00ef45076af4491253",
+      "time": 716,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [716],
+      "allTests": [{}]
+    },
+    {
+      "id": "0859a8e3-b09b-4964-ae7c-f8af1531a53c",
+      "name": "Delete Location Fail",
+      "url": "https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123",
+      "time": 1075,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {},
+      "testPassFailCounts": {},
+      "times": [1075],
+      "allTests": [{}]
+    }
+  ],
+  "count": 1,
+  "totalTime": 8068,
+  "collection": {
+    "requests": [
+      {
+        "id": "a46c7215-8e0b-4c05-be1e-70e022a62cdc",
+        "method": "POST"
+      },
+      {
+        "id": "58a14761-c255-4c9b-92ef-79e0753ea65e",
+        "method": "GET"
+      },
+      {
+        "id": "d15a9e91-d469-43ef-9085-ddbd9e7f6ee1",
+        "method": "GET"
+      },
+      {
+        "id": "ef0fa466-b8cc-4853-acaa-3cff933c8ee4",
+        "method": "PUT"
+      },
+      {
+        "id": "3c5dd9b6-c105-4dff-9809-7b939d0cfa73",
+        "method": "GET"
+      },
+      {
+        "id": "b405b89c-2035-4d79-991e-9b1aafd18e8e",
+        "method": "PUT"
+      },
+      {
+        "id": "b07d424c-5e6e-48f9-af31-4a93faac11fa",
+        "method": "DELETE"
+      },
+      {
+        "id": "58784af1-b4a2-4916-91e4-03cf205c8c53",
+        "method": "GET"
+      },
+      {
+        "id": "0859a8e3-b09b-4964-ae7c-f8af1531a53c",
+        "method": "DELETE"
+      }
+    ]
+  }
+}
