@@ -1,0 +1,7 @@
+.idea/
+.pytest_cache/
+__pycache__/
+base/__pycache__/
+pages/__pycache__/
+test/__pycache__/
+utilities/__pycache__/
