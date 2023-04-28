@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 26 13:26:25 MSK 2023","Wed Apr 26 13:26:33 MSK 2023","7505","tests","test_buy_product","","","","test_buy_product_5","Test Buy Product 5"
+"passed","Wed Apr 26 13:26:41 MSK 2023","Wed Apr 26 13:26:53 MSK 2023","12710","tests","test_link_about","","","","test_link_about","Test Link About"
+"broken","Wed Apr 26 13:26:22 MSK 2023","Wed Apr 26 13:26:25 MSK 2023","3487","tests","test_buy_product","","","","test_buy_product_4","Test Buy Product 4"
+"passed","Wed Apr 26 13:26:33 MSK 2023","Wed Apr 26 13:26:41 MSK 2023","7640","tests","test_buy_product","","","","test_buy_product_6","Test Buy Product 6"
+"passed","Wed Apr 26 13:25:58 MSK 2023","Wed Apr 26 13:26:06 MSK 2023","8687","tests","test_buy_product","","","","test_buy_product_1","Test Buy Product 1"
+"passed","Wed Apr 26 13:26:14 MSK 2023","Wed Apr 26 13:26:22 MSK 2023","7780","tests","test_buy_product","","","","test_buy_product_3","Test Buy Product 3"
+"passed","Wed Apr 26 13:26:06 MSK 2023","Wed Apr 26 13:26:14 MSK 2023","7522","tests","test_buy_product","","","","test_buy_product_2","Test Buy Product 2"
