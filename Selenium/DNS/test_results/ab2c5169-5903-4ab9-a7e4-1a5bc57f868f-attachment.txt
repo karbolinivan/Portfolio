@@ -1,0 +1,37 @@
+
+Start test "test buy product"
+Start Test 1
+Click on 'Смартфоны и фототехника'
+Current url: https://www.dns-shop.ru/catalog/17a890dc16404e77/smartfony-i-fototexnika/
+Good value URL
+Click on 'Смартфоны и гаджеты'
+Current url: https://www.dns-shop.ru/catalog/af47fe7c3bae7fd7/smartfony-i-gadzhety/
+Good value URL
+Click on 'Смартфоны'
+Current url: https://www.dns-shop.ru/catalog/17a8a01d16404e77/smartfony/
+Good value URL
+Click on 'Под заказ: сегодня'
+Click on 'Под заказ: завтра'
+Click on 'Под заказ: позже'
+Move to 'Производитель'
+Click on 'Apple'
+Move to 'Применить
+Click on 'Применить'
+Move to 'Сортировка'
+Click on 'Сортировка'
+Click on 'Сначала дорогие'
+Click on 'Сначала дорогие'
+Click on 'Купить'
+Click on 'Корзина'
+Current url: https://www.dns-shop.ru/cart/
+Good value URL
+Click on 'Перейти к оформлению'
+Current url: https://www.dns-shop.ru/checkout-main/
+Good value URL
+Введен номер: 1234567890
+Введен email: test@gmail.com
+Move to 'Подтвердить заказ'
+Click on 'Подтвердить заказ'
+Finish Test 1
+
+End test "test buy product"
