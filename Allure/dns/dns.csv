@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 05 18:58:02 MSK 2023","Fri May 05 18:58:33 MSK 2023","31650","tests","test_buy_phone","","","","test_buy_phone","Test Buy Iphone Sorted by High to Low"
