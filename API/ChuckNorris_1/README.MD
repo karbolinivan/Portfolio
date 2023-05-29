@@ -27,7 +27,7 @@ API - <a href="https://api.chucknorris.io/" target="_blank">ChuckNorris</a>
    ```
 
 3. Получение шуток каждой категории:
-   ```Puthon
+   ```Python
    winner = ChuckNorris()
    for char in winner.get_categories():
        winner.get_jokes(char)
